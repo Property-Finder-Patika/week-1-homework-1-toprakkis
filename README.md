@@ -11,7 +11,7 @@ My HW1 comments for Week 1
                                                           --------> CH.2 Declarations <--------
 
 // In this code a constant is defined to denote temperature in Fahrenheit and converted to Celcius with basic math operations.
-<br>package main<br>
+<br>package main
 import "fmt"
 const boilingF = 212.0
 func main() {
