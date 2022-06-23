@@ -53,4 +53,52 @@
 
 
                                                           --------> CH.3 Data Types <--------
-
+                                                          
+                                                          
+  //CH.3 mainly dealt with data types and their declarations, for my HW, I will continue with in-class exercises. I changed some of the variables to play with code and understand it further.
+  
+  
+<br>package main<br>
+<br>import (<br>
+<br>"fmt"<br>
+<br>)<br>
+<br>type Person struct {<br>
+<br>name string<br>
+<br>}<br>
+<br>func (p Person) greet() string {<br>
+<br>return "Selam " + g.name + " :)"<br>
+<br>}<br>
+<br>func main() {<br>
+<br>greetPrinter(createGreetInTurkish, "Hatice")<br>
+<br>greetPrinter(createGreetInEnglish, "Mary")<br>
+<br>greetPrinter(convertToUppercase, "naber?")<br>
+<br>greetCreator := createGreetInTurkish<br>
+<br>greetPrinter(greetCreator, "Toprak")<br>
+<br>func(name string) {<br>
+<br>greeting := "Merhaba " + name + " :)"<br>
+<br>fmt.Printf("%s\n", greeting)<br>
+<br>}<br>
+<br>("Yesim")<br>
+<br>closure := func(name string) {<br>
+<br>greeting := "Merhaba " + name + " :)"<br>
+<br>fmt.Printf("%s\n", greeting)<br>
+<br>}<br>
+<br>closure("Fatma")<br>
+<br>anotherGreetPrinter(closure, "Zeynep")<br>
+<br>}<br>
+<br>func createGreetInTurkish(name string) string {<br>
+<br>return "Selam " + name + " :)"<br>
+<br>}<br>
+<br>func createGreetInEnglish(name string) string {<br>
+<br>return "Hi " + name + " :)"<br>
+<br>}<br>
+<br>func convertToUppercase(arg string) string {<br>
+<br>return strings.ToUpper(arg)<br>
+<br>}<br>
+<br>func greetPrinter(function func(it string) string, name string){<br>
+<br>var greeting = function(name)<br>
+<br>fmt.Printf("%s\n", greeting)<br>
+<br>}<br>
+<br>func anotherGreetPrinter(function func(it string), name string){<br>
+<br>function(name)<br>
+<br>}<br>
