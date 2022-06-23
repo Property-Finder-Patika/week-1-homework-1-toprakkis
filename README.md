@@ -8,7 +8,7 @@
 
 <br>My HW1 comments for Week 1<br>
 
-                                                          <br>--------> CH.2 Declarations <--------<br>
+                                                          --------> CH.2 Declarations <--------
 
 <br>// In this code a constant is defined to denote temperature in Fahrenheit and converted to Celcius with basic math operations.
 <br>package main<br>
@@ -52,5 +52,5 @@
 <br>}<br>
 
 
-                                                          <br>--------> CH.3 Data Types <--------<br>
+                                                          --------> CH.3 Data Types <--------
 
