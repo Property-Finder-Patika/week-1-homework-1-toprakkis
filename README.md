@@ -6,51 +6,51 @@
 
 
 
-My HW1 comments for Week 1
+<br>My HW1 comments for Week 1<br>
 
-                                                          --------> CH.2 Declarations <--------
+                                                          <br>--------> CH.2 Declarations <--------<br>
 
-// In this code a constant is defined to denote temperature in Fahrenheit and converted to Celcius with basic math operations.
-package main<br>
-import "fmt"
-const boilingF = 212.0
-func main() {
-var f = boilingF
-var c = (f - 32) * 5 / 9
-fmt.Printf("boiling point = %g°F or %g°C\n", f, c)
+<br>// In this code a constant is defined to denote temperature in Fahrenheit and converted to Celcius with basic math operations.
+<br>package main<br>
+<br>import "fmt"<br>
+<br>const boilingF = 212.0<br>
+<br>func main() {<br>
+<br>var f = boilingF<br>
+<br>var c = (f - 32) * 5 / 9<br>
+<br>fmt.Printf("boiling point = %g°F or %g°C\n", f, c)<br>
 
-}
-// In this second example, both freezing and boiling point of water in sea level conditions defined in Fahrenheit and converted to Celcius similar to first example.
-package main
-import "fmt"
-func main() {
-const freezingF, boilingF = 32.0, 212.0
-fmt.Printf("%g°F = %g°C\n", freezingF, fToC(freezingF)) // "32°F = 0°C"
-fmt.Printf("%g°F = %g°C\n", boilingF, fToC(boilingF)) // "212°F = 100°C"
-}
-func fToC(f float64) float64 {
-return (f - 32) * 5 / 9
-}
+<br>}<br>
+<br>// In this second example, both freezing and boiling point of water in sea level conditions defined in Fahrenheit and converted to Celcius similar to first example.
+<br>package main<br>
+<br>import "fmt"<br>
+<br>func main() {<br>
+<br>const freezingF, boilingF = 32.0, 212.0<br>
+<br>fmt.Printf("%g°F = %g°C\n", freezingF, fToC(freezingF)) // "32°F = 0°C"<br>
+<br>fmt.Printf("%g°F = %g°C\n", boilingF, fToC(boilingF)) // "212°F = 100°C"<br>
+<br>}
+<br>func fToC(f float64) float64 {<br>
+<br>return (f - 32) * 5 / 9<br>
+<br>}<br>
 
- After that possible variable definiton methods are discussed and pointers are explained in depth.
+<br> After that possible variable definiton methods are discussed and pointers are explained in depth.<br>
  
- // In here, a Flag variable is defined to get 1 boolean and 2 string value.
-package main
-import (
-"flag"
-"fmt"
-"strings"
-)
-var n = flag.Bool("n", false, "omit trailing newline")
-var sep = flag.String("s", " ", "separator")
-func main() {
-flag.Parse()
-fmt.Print(strings.Join(flag.Args(), *sep))
-if !*n {
-fmt.Println()
-}
-}
+ <br>// In here, a Flag variable is defined to get 1 boolean and 2 string value.<br>
+<br>package main<br>
+<br>import (<br>
+<br>"flag"<br>
+<br>"fmt"<br>
+<br>"strings"<br>
+<br>)
+<br>var n = flag.Bool("n", false, "omit trailing newline")<br>
+<br>var sep = flag.String("s", " ", "separator")<br>
+<br>func main() {<br>
+<br>flag.Parse()<br>
+<br>fmt.Print(strings.Join(flag.Args(), *sep))<br>
+<br>if !*n {<br>
+<br>fmt.Println()<br>
+<br>}<br>
+<br>}<br>
 
 
-                                                          --------> CH.3 Data Types <--------
+                                                          <br>--------> CH.3 Data Types <--------<br>
 
