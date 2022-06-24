@@ -8,9 +8,10 @@
 
 <br>My HW1 comments for Week 1<br>
 
-                                                          --------> CH.2 Declarations <--------
+                                                     <b>--------> CH.2 Declarations <--------</b>
 
 <br>// <b>In this code a constant is defined to denote temperature in Fahrenheit and converted to Celcius with basic math operations.</b>
+
 <br>package main<br>
 <br>import "fmt"<br>
 <br>const boilingF = 212.0<br>
@@ -20,7 +21,7 @@
 <br>fmt.Printf("boiling point = %g°F or %g°C\n", f, c)<br>
 
 <br>}<br>
-<br>// In this second example, both freezing and boiling point of water in sea level conditions defined in Fahrenheit and converted to Celcius similar to first example.
+<br>// <br>In this second example, both freezing and boiling point of water in sea level conditions defined in Fahrenheit and converted to Celcius similar to first example.</b>
 <br>package main<br>
 <br>import "fmt"<br>
 <br>func main() {<br>
@@ -32,7 +33,7 @@
 <br>return (f - 32) * 5 / 9<br>
 <br>}<br>
 
-<br> After that possible variable definiton methods are discussed and pointers are explained in depth.<br>
+<br><b> After that possible variable definiton methods are discussed and pointers are explained in depth.</b><br>
  
  <br>// In here, a Flag variable is defined to get 1 boolean and 2 string value.<br>
 <br>package main<br>
@@ -52,10 +53,10 @@
 <br>}<br>
 
 
-                                                          --------> CH.3 Data Types <--------
+                                                         <b> --------> CH.3 Data Types <--------</b>
                                                           
                                                           
-  //CH.3 mainly dealt with data types and their declarations, for my HW, I will continue with in-class exercises. I changed some of the variables to play with code and understand it further.
+  <b>//CH.3 mainly dealt with data types and their declarations, for my HW, I will continue with in-class exercises. I changed some of the variables to play with code and understand it further.</b>
   
   
 <br>package main<br>
