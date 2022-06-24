@@ -8,7 +8,7 @@
 
 <br>My HW1 comments for Week 1<br>
 
-                                                     <b>--------> CH.2 Declarations <--------</b>
+                                                     --------> CH.2 Declarations <--------
 
 <br>// <b>In this code a constant is defined to denote temperature in Fahrenheit and converted to Celcius with basic math operations.</b>
 
@@ -21,7 +21,7 @@
 <br>fmt.Printf("boiling point = %g°F or %g°C\n", f, c)<br>
 
 <br>}<br>
-<br>// <br>In this second example, both freezing and boiling point of water in sea level conditions defined in Fahrenheit and converted to Celcius similar to first example.</b>
+<br>// <br><b>In this second example, both freezing and boiling point of water in sea level conditions defined in Fahrenheit and converted to Celcius similar to first example.</b></b>
 <br>package main<br>
 <br>import "fmt"<br>
 <br>func main() {<br>
@@ -53,7 +53,7 @@
 <br>}<br>
 
 
-                                                         <b> --------> CH.3 Data Types <--------</b>
+                                                         --------> CH.3 Data Types <--------
                                                           
                                                           
   <b>//CH.3 mainly dealt with data types and their declarations, for my HW, I will continue with in-class exercises. I changed some of the variables to play with code and understand it further.</b>
