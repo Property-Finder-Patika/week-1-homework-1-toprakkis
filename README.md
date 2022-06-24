@@ -10,7 +10,7 @@
 
                                                           --------> CH.2 Declarations <--------
 
-<br>// In this code a constant is defined to denote temperature in Fahrenheit and converted to Celcius with basic math operations.
+<br>// <b>In this code a constant is defined to denote temperature in Fahrenheit and converted to Celcius with basic math operations.</b>
 <br>package main<br>
 <br>import "fmt"<br>
 <br>const boilingF = 212.0<br>
